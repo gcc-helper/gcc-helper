@@ -102,3 +102,21 @@ nav a .btn.btn-Primary:hover, .btn.btn-Primary:focus {
 .main-list-item div p {
     font-family: 'Montserrat Alternates', sans-serif;
 }
+
+a .btn {
+    background-color: hsl(0, 88%, 60%);
+    border: 1px solid hsl(0, 100%, 50%);
+    outline: none;
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: .5em;
+}
+
+a .btn:hover {
+    background-color: rgb(20, 160, 220);
+    border-color: rgb(25, 165, 225);
+    color: black;
+    font-family: 'Joan', serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
