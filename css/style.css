@@ -1,11 +1,14 @@
 body {
-    background-color: aliceblue;
+    /* box-sizing: border-box; */
+    /* background-color: aliceblue; */
     margin: 0;
     font-family: 'Joan', serif;
     /* 
     font-family: 'Montserrat', sans-serif;
     font-family: 'Montserrat Alternates', sans-serif; */
 }
+
+/* HEADER // NAVBAR */
 
 .header {
     margin-top: 1rem;
@@ -17,7 +20,7 @@ body {
     /* border: 1px solid black; */
     border-radius: .5rem;
     padding: 0 5rem;
-    background-color: rgb(210, 244, 242);
+    background-color: rgb(20, 160, 220);
 }
 
 .list {
@@ -39,7 +42,7 @@ body {
 }
 
 .list-item a:hover {
-    color:rgb(89, 134, 217);
+    color:rgb(141, 10, 248);
 }
 
 nav a button {
@@ -60,8 +63,8 @@ nav a .btn {
 }
 
 nav a .btn.btn-Primary {
-    background-color: rgb(211, 246, 240);
-    border-color: rgb(188, 237, 202);
+    background-color: rgb(20, 160, 220);
+    border-color: rgb(25, 165, 225);
     color: black;
     font-family: 'Joan', serif;
     font-weight: bolder;
@@ -78,16 +81,17 @@ nav a .btn.btn-Primary:hover, .btn.btn-Primary:focus {
 
     /* MAIN-CONTENT */
 
-.main-content {
+/* .main-content {
     border: 1px dotted black;
     width:65%;
-}
+} */
 
 .main-container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 3rem 5rem;
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
 }
 
 .main-list {
@@ -114,7 +118,7 @@ nav a .btn.btn-Primary:hover, .btn.btn-Primary:focus {
 }
 
 .mli-div-image {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 15rem;
     height: 10rem;
     border-radius: .5rem;
@@ -167,9 +171,12 @@ button {
     /* SIDE-CONTENT */
 
 .side-content {
+    display: inline-flex;
+    flex-direction: column;
     border: 1px dotted black;
     width: 25%;
-    text-align: center;
+    height: 50rem;
+    align-items: center;
 }
 
 .btn.btn-side-content {
@@ -186,7 +193,13 @@ button {
     background: linear-gradient(to right, hsl(271, 70%, 40%), hsl(200, 100%, 30%));
     border-color: black;
     box-shadow: 0 0 5px 0 black;
-}    
+} 
+
+div h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    line-height: 2;
+}
 
 /* FOOTER  */
 
