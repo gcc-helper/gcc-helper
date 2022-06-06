@@ -1,0 +1,202 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+    font-family: 'Joan', serif;
+    /* 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif; */
+}
+
+.header {
+    margin-top: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    border-radius: .5rem;
+    padding: 0 5rem;
+    background-color: rgb(210, 244, 242);
+}
+
+.list {
+    list-style: none;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 1000;
+    font-size: large;
+}
+
+.list-item {
+    padding: .5rem 2rem;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-item a:hover {
+    color:rgb(89, 134, 217);
+}
+
+nav a button {
+    text-align: center;
+    width: 15rem;
+    height: 5rem;
+    font-size: large;
+    font-weight: 200;
+}
+
+nav a .btn {
+    background-color: hsl(0, 0%, 90%);
+    border: 1px solid hsl(0, 0%, 70%);
+    outline: none;
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: .5em;
+}
+
+nav a .btn.btn-Primary {
+    background-color: rgb(211, 246, 240);
+    border-color: rgb(188, 237, 202);
+    color: black;
+    font-family: 'Joan', serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+nav a .btn.btn-Primary:hover, .btn.btn-Primary:focus {
+    background-color: rgb(133, 240, 224);
+    box-shadow: rgb(109, 222, 244);
+    color: rgb(6, 75, 180);
+}
+
+/* MAIN BODY */
+
+    /* MAIN-CONTENT */
+
+.main-content {
+    border: 1px dotted black;
+    width:65%;
+}
+
+.main-container {
+    border: 1px solid black;
+    margin: 3rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-list {
+    display: grid;
+    grid-template-columns: 15.3rem 15.3rem 15.3rem ;
+    grid-template-rows: 15.625rem 15.625rem 15.625rem ;
+    row-gap: 80px;
+    column-gap: 30px;
+    align-content: center;
+}
+
+.main-list-item {
+    list-style: none;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+
+.mli-link {
+
+}
+
+.mli-div {
+
+}
+
+.mli-div-image {
+    border: 1px solid black;
+    width: 15rem;
+    height: 10rem;
+    border-radius: .5rem;
+}
+
+div .main-item-text {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    width: 15rem;
+    height: 5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: large;
+    font-weight: 200;
+}
+
+.btn {
+    background-color: hsl(0, 0%, 90%);
+    border: 1px solid hsl(0, 0%, 70%);
+    outline: none;
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: .5em;
+}
+
+.btn.btn-Primary {
+    background-color: hsl(271, 70%, 50%);
+    border-color: hsl(271, 70%, 30%);
+    color: white;
+}
+
+.btn.btn-Primary:hover, .btn.btn-Primary:focus {
+    background-color: hsl(271, 70%, 40%);
+    box-shadow: hsl(271, 70%, 30%);
+}
+
+.btn.btn-danger {
+    background-color: hsl(0, 60%, 50%);
+    border-color: hsl(0, 60%, 30%);
+    color: white;
+}
+
+.btn.btn-danger:hover, .btn.btn-danger:focus {
+    background-color: hsl(0, 60%, 40%);
+    box-shadow: hsl(0, 60%, 30%);
+}
+
+    /* SIDE-CONTENT */
+
+.side-content {
+    border: 1px dotted black;
+    width: 25%;
+    text-align: center;
+}
+
+.btn.btn-side-content {
+    margin-top: 2rem;
+}
+
+.btn.btn-custom {
+    background: linear-gradient(to right, hsl(271, 70%, 50%), hsl(200, 100%, 40%));
+    color: white;
+    border-color: #222;
+}   
+
+.btn.btn-custom:hover, .btn.btn-custom:focus {
+    background: linear-gradient(to right, hsl(271, 70%, 40%), hsl(200, 100%, 30%));
+    border-color: black;
+    box-shadow: 0 0 5px 0 black;
+}    
+
+/* FOOTER  */
+
+.footer {
+    background-color: rgb(50, 49, 49);
+    padding: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.footer-item {
+
+}
