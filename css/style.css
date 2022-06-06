@@ -173,7 +173,7 @@ button {
 .side-content {
     display: inline-flex;
     flex-direction: column;
-    border: 1px dotted black;
+/*     border: 1px dotted black; */
     width: 25%;
     height: 50rem;
     align-items: center;
